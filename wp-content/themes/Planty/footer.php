@@ -1,4 +1,5 @@
 <?php
+remove_action( 'generate_credits', 'generate_add_footer_info' );
 /**
  * The template for displaying the footer.
  *
@@ -46,7 +47,6 @@ do_action( 'generate_before_footer' );
 	 *
 	 * @since 0.1
 	 */
-	do_action( 'generate_after_footer_content' );
 	?>
 </div>
 
