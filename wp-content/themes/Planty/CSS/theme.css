@@ -100,7 +100,7 @@ a:hover, a {
     background-color: rgba(0,0,0,0.2);
 }
 
-/* Formulaire Nous Contacter */
+/* Formulaires Nous Contacter et Commander */
 
 div.wpforms-container-full .wpforms-form .wpforms-field-label {
     font-size: 20px;
@@ -140,4 +140,101 @@ div.wpforms-container-full .wpforms-form button[type=submit]:hover {
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
     display: flex;
     justify-content: center;
+}
+
+/* Formulaire commander ( 0 , + , - , OK ) */
+#form-cmd .champ {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 14.64px;
+}
+#form-cmd .champ div {
+    display: flex;
+    width: 82px;
+}
+
+#form-cmd div input {
+    width: 51px;
+    height: 56px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#form-cmd div .ok {
+    height: 56px;
+    width: 100px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-positive {
+    border-radius: 0px 5px 0px 0px;
+    border-bottom: 1px solid white;
+}
+
+.btn-negative {
+    border-radius: 0px 0px 5px 0px;
+}
+
+.btn-number button {
+    width: 31px;
+    height: 28px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Syne', sans-serif;
+    background-color: #E0B9B4;
+}
+
+/* Formulaire Vos informations // Livraison */
+
+#wpforms-form-268 button[type=submit],
+#wpforms-form-271 button[type=submit] {
+display: none;
+}
+
+#wpforms-form-271,
+#wpforms-form-268 {
+    color: white;
+}
+
+/* Effacer fleche ::after et ::befor */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Page Commander */
+
+#img-commande div figure img,
+#img-commande div figure figcaption  {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#img-commande div figure {
+    width: 193px;
 }

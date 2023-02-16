@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-17 11:24:41+0000\n"
+"PO-Revision-Date: 2023-02-15 11:19:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,283 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
+
+#: src/Forms/IconChoices.php:490
+msgid "Sorry, we didn't find any matching icons."
+msgstr "Désolé, nous n’avons pas trouvé d’icônes correspondantes."
+
+#: src/Forms/IconChoices.php:489
+msgid "Search 2000+ icons..."
+msgstr "Recherchez plus de 2000 icônes…"
+
+#: src/Forms/IconChoices.php:488
+msgid "Browse or search for the perfect icon."
+msgstr "Parcourez ou recherchez l’icône parfaite."
+
+#: src/Forms/IconChoices.php:487
+msgid "Icon Picker"
+msgstr "Sélecteur d’icône"
+
+#: src/Forms/IconChoices.php:486
+msgid "The icon library appears to be missing or damaged. It will now be reinstalled."
+msgstr "La bibliothèque d’icônes semble être manquante ou endommagée. Elle va maintenant être réinstallée."
+
+#. translators: %s - WPForms Support URL.
+#: src/Forms/IconChoices.php:469
+msgid "There was an error installing the icon library. Please try again later or <a href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">contact support</a> if the issue persists."
+msgstr "Une erreur s’est produite lors de l’installation de la bibliothèque d’icônes. Veuillez réessayer plus tard ou <a href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">contacter le support</a> si le problème persiste."
+
+#: src/Forms/IconChoices.php:466
+msgid "The icon library has been installed successfully. We will now save your form and reload the form builder."
+msgstr "La bibliothèque d’icônes a bien été installée. Nous allons maintenant enregistrer votre formulaire et recharger le constructeur de formulaire."
+
+#: src/Forms/IconChoices.php:465
+msgid "This should only take a minute. Please don’t close or reload your browser window."
+msgstr "Cela ne devrait prendre qu’une minute. Veuillez ne pas fermer ou recharger la fenêtre de votre navigateur."
+
+#: src/Forms/IconChoices.php:464
+msgid "Installing Icon Library"
+msgstr "Installation de la bibliothèque d’icônes"
+
+#: src/Forms/IconChoices.php:463
+msgid "In order to use the Icon Choices feature, an icon library must be downloaded and installed. It's quick and easy, and you'll only have to do this once."
+msgstr "Afin d’utiliser la fonction Choix d’icônes, une bibliothèque d’icônes doit être téléchargée et installée. C’est rapide et facile, et vous n’aurez à le faire qu’une seule fois."
+
+#: src/Forms/IconChoices.php:452
+msgid "Uh oh!"
+msgstr "Oh oh !"
+
+#: src/Forms/IconChoices.php:451
+msgid "Done!"
+msgstr "Terminé !"
+
+#. translators: %s - WPForms contact page URL.
+#: src/Admin/Tools/Views/Import.php:183
+msgid "You can’t import forms because you don’t have unfiltered HTML permissions. Please contact your site administrator or <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">reach out to our support team</a>."
+msgstr "Vous ne pouvez pas importer de formulaires car vous n’avez pas les droits HTML non filtrées. Veuillez contacter l’administrateur ou l‘administratrice de votre site ou contactez <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">notre équipe de support</a>."
+
+#. translators: %s - <email@example.com>.
+#: lite/wpforms-lite.php:298
+msgid "Enter the email address or email address with recipient's name in \"First Last %s\" format."
+msgstr "Saisissez l’adresse e-mail avec le nom du destinataire au format « First Last %s »."
+
+#: includes/fields/class-base.php:1484
+msgid "Select the style for the icon choices."
+msgstr "Sélectionner le style pour les choix d’icônes."
+
+#: includes/fields/class-base.php:1483
+msgid "Icon Choice Style"
+msgstr "Style de choix d’icône"
+
+#: includes/fields/class-base.php:1440
+msgid "Select icon size."
+msgstr "Sélectionner la taille d’icône."
+
+#: includes/fields/class-base.php:1439
+msgid "Icon Size"
+msgstr "Taille de l’icône"
+
+#: includes/fields/class-base.php:1400
+msgid "Select an accent color for the icon choices."
+msgstr "Sélectionner une couleur accentuée pour les choix d’icônes."
+
+#: includes/fields/class-base.php:1399
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: includes/fields/class-base.php:1374
+msgid "Enable this option to use icons with the choices."
+msgstr "Activez cette option pour utiliser des icônes avec les choix."
+
+#: includes/fields/class-base.php:1373
+msgid "Use icon choices"
+msgstr "Utiliser les choix d’icônes"
+
+#: includes/admin/overview/class-overview-table.php:150
+msgid "Entries are securely backed up in the cloud. Upgrade to restore."
+msgstr "Les entrées sont sauvegardées en toute sécurité dans le cloud. Mettez à niveau pour restaurer."
+
+#: includes/admin/ajax-actions.php:753 src/Admin/FormEmbedWizard.php:415
+msgid "Incorrect usage of this operation."
+msgstr "Usage incorrect de cette opération."
+
+#: templates/builder/fullscreen/mobile-notice.php:18
+msgid "We recommend that you edit your forms on a bigger screen. If you'd like to proceed, please understand that some functionality might not behave as expected."
+msgstr "Nous vous recommandons de modifier vos formulaires sur un écran plus grand. Si vous souhaitez continuer, veuillez comprendre que certaines fonctionnalités peuvent ne pas se comporter comme prévu."
+
+#: templates/builder/fullscreen/mobile-notice.php:17
+msgid "Our form builder is optimized for desktop computers."
+msgstr "Notre générateur de formulaires est optimisé pour les ordinateurs de bureau."
+
+#: src/Lite/Admin/Education/Builder/Notifications.php:74
+msgid "File Upload Attachments"
+msgstr "Pièces jointes de téléversement de fichier"
+
+#: src/Lite/Admin/Education/Builder/Notifications.php:66
+msgid "Enable File Upload Attachments"
+msgstr "Activer les pièces jointes de téléversement"
+
+#: src/Admin/Traits/FormTemplates.php:128
+msgid "New Templates"
+msgstr "Nouveaux modèles"
+
+#: src/Admin/Traits/FormTemplates.php:127
+msgid "Favorite Templates"
+msgstr "Modèles favoris"
+
+#: src/Admin/Builder/Traits/ContentInput.php:355
+msgid "Update Preview"
+msgstr "Mettre à jour l’aperçu"
+
+#: src/Admin/Builder/Traits/ContentInput.php:354
+msgid "Collapse Editor"
+msgstr "Replier l’éditeur"
+
+#: src/Admin/Builder/Traits/ContentInput.php:353
+msgid "Expand Editor"
+msgstr "Déplier l’éditeur"
+
+#: src/Admin/Builder/Traits/ContentInput.php:352
+msgid "<h4>Add Text and Images to Your Form With Ease</h4> <p>To get started, replace this text with your own.</p>"
+msgstr "<h4>Ajoutez facilement du texte et des images à votre formulaire</h4> <p>Pour commencer, remplacez ce texte par le vôtre.</p>"
+
+#: src/Admin/Builder/Traits/ContentInput.php:310
+msgid "Text"
+msgstr "Texte"
+
+#: src/Admin/Builder/Traits/ContentInput.php:307
+msgid "Visual"
+msgstr "Visuel"
+
+#: src/Admin/Builder/Traits/ContentInput.php:302
+msgid "Add Media"
+msgstr "Ajouter un média"
+
+#: src/Admin/Builder/Traits/ContentInput.php:163
+msgid "Uploaded to this form"
+msgstr "Téléversé sur ce formulaire"
+
+#: src/Admin/Builder/Traits/ContentInput.php:162
+msgid "Insert into form"
+msgstr "Insérer dans le formulaire"
+
+#: src/Admin/Builder/AntiSpam.php:272
+msgid "Integrate the powerful spam-fighting service trusted by millions of sites."
+msgstr "Intégrez le puissant service de lutte contre les indésirables auquel font confiance des millions de sites."
+
+#: src/Admin/Builder/AntiSpam.php:264
+msgid "Turn on free, privacy-oriented spam prevention that displays a visual CAPTCHA."
+msgstr "Activez la prévention anti-spam gratuite et axée sur la confidentialité qui affiche un CAPTCHA visuel."
+
+#: src/Admin/Builder/AntiSpam.php:256
+msgid "Add Google's free anti-spam service and choose between visible or invisible CAPTCHAs."
+msgstr "Ajoutez le service anti-spam gratuit de Google et choisissez entre des CAPTCHA visibles ou invisibles."
+
+#: src/Admin/Builder/AntiSpam.php:249
+msgid "Add to Form"
+msgstr "Ajouter au formulaire"
+
+#: src/Admin/Builder/AntiSpam.php:247
+msgid "Ask custom questions or require your visitor to answer a random math puzzle."
+msgstr "Posez des questions personnalisées ou demandez à votre visiteur de répondre à un casse-tête mathématique aléatoire."
+
+#: src/Admin/Builder/AntiSpam.php:238
+msgid "Block form entries that contain specific words or phrases that you define."
+msgstr "Bloquez les entrées de formulaire qui contiennent des mots ou des expressions spécifiques que vous définissez."
+
+#: src/Admin/Builder/AntiSpam.php:237
+msgid "Keyword Filter"
+msgstr "Filtre de mot-clé"
+
+#: src/Admin/Builder/AntiSpam.php:229
+msgid "Stop spam at its source. Allow or deny entries from specific countries."
+msgstr "Arrêtez le spam à sa source. Autorisez ou refusez les entrées de pays spécifiques."
+
+#: src/Admin/Builder/AntiSpam.php:228
+msgid "Country Filter"
+msgstr "Filtre de pays"
+
+#: src/Admin/Builder/AntiSpam.php:219
+msgid "Get Started &rarr;"
+msgstr "Premiers pas &rarr;"
+
+#: src/Admin/Builder/AntiSpam.php:166
+msgid "Automated tests that help to prevent bots from submitting your forms."
+msgstr "Tests automatisés qui empêchent les robots d’envoyer vos formulaires."
+
+#: src/Admin/Builder/AntiSpam.php:158
+msgid "Enable third-party CAPTCHAs to prevent form submissions from bots."
+msgstr "Activez les CAPTCHA tiers pour empêcher les envois de formulaires par des robots."
+
+#: src/Admin/Builder/AntiSpam.php:108
+msgid "Also Available"
+msgstr "Également disponible"
+
+#: src/Admin/Builder/AntiSpam.php:76
+msgid "Protection"
+msgstr "Protection"
+
+#: src/Admin/Builder/AntiSpam.php:75
+msgid "Behind-the-scenes spam filtering that's invisible to your visitors."
+msgstr "Un filtrage anti-spam en arrière-plan invisible pour vos visiteurs."
+
+#: src/Admin/Builder/AntiSpam.php:67
+msgid "Turn on invisible spam protection."
+msgstr "Activer la protection anti-spam invisible."
+
+#. translators: %s - error unique ID.
+#: includes/class-process.php:207
+msgid "Error ID: %s."
+msgstr "ID de l’erreur : %s."
+
+#. translators: %s - URL to the WForms Logs admin page.
+#: includes/class-process.php:192
+msgid "Check the WPForms &raquo; Tools &raquo; <a href=\"%s\">Logs</a> for more details."
+msgstr "Consultez WPForms » Outils » <a href=\"%s\">Journaux</a>  pour plus de détails."
+
+#: includes/class-process.php:187
+msgid "Your form has not been submitted because data is missing from the entry."
+msgstr "Votre formulaire n’a pas été envoyé car des données sont manquantes dans l’entrée."
+
+#: includes/class-process.php:180
+msgid "Form data is not an array in `\\WPForms_Process::process()`. It might be caused by incorrect data returned by `wpforms_process_before_form_data` filter. Verify whether you have a custom code using this filter and debug value it is returning."
+msgstr "Les données de formulaire ne sont pas un tableau dans ’\\WPForms_Process::process()’. Cela peut être dû à des données incorrectes renvoyées par le filtre ’wpforms_process_before_form_data’. Vérifiez si vous disposez d’un code personnalisé à l’aide de ce filtre et déboguez la valeur qu’il renvoie."
+
+#. translators: %s - error unique ID.
+#: includes/class-process.php:179
+msgid "Missing form data on form submission process %s"
+msgstr "Données de formulaire manquantes sur le processus d’envoi de formulaire %s"
+
+#: includes/admin/class-about.php:1411
+msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, File Upload and CSV Attachments, Conditional Form Confirmation, Save and Resume Form"
+msgstr "Formulaires multipages, formulaires de téléversement de fichiers, notifications de formulaires multiples, téléversement de fichiers et pièces jointes CSV, confirmation de formulaire conditionnel, enregistrement et reprise de formulaire"
+
+#: includes/admin/class-about.php:1404
+msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, File Upload and CSV Attachments, Conditional Form Confirmation"
+msgstr "Formulaires multipages, formulaires de téléversement de fichiers, notifications de formulaires multiples, téléversement de fichiers et pièces jointes CSV, confirmation de formulaire conditionnel"
+
+#: includes/admin/class-about.php:1222 includes/admin/class-about.php:1229
+#: includes/admin/class-about.php:1236
+msgid "Basic Protection, reCAPTCHA, hCaptcha, Akismet, Country Filter, Keyword Filter, and Custom Captcha"
+msgstr "Protection de base, reCAPTCHA, hCaptcha, Akismet, filtre de pays, filtre de mot-clé et CAPTCHA personnalisé"
+
+#: includes/admin/class-about.php:1221 includes/admin/class-about.php:1228
+#: includes/admin/class-about.php:1235
+msgid "Additional Anti-Spam Settings"
+msgstr "Réglages anti-spam supplémentaires"
+
+#: includes/admin/class-about.php:1215
+msgid "Basic Protection, reCAPTCHA, hCaptcha, and Akismet"
+msgstr "Protection de base, reCAPTCHA, hCaptcha et Akismet"
+
+#: includes/admin/class-about.php:1214
+msgid "Basic Anti-Spam Settings"
+msgstr "Réglages anti-spam de base"
+
+#: includes/admin/builder/panels/class-settings.php:42
+#: includes/admin/class-about.php:76 src/Admin/Builder/AntiSpam.php:57
+msgid "Spam Protection and Security"
+msgstr "Protection anti-spam et sécurité"
 
 #: lite/templates/admin/addons.php:56
 #: lite/templates/education/builder/providers-item.php:34
@@ -372,6 +649,10 @@ msgstr "Lire le guide"
 #: src/Admin/Notifications/EventDriven.php:527
 msgid "Start Building"
 msgstr "Démarrer la construction"
+
+#: src/Admin/Notifications/EventDriven.php:523
+msgid "We’re grateful that you chose WPForms for your website! Now that you’ve installed the plugin, you’re less than 5 minutes away from publishing your first form. To make it easy, we’ve got 500+ form templates to get you started!"
+msgstr "Nous vous sommes reconnaissants d’avoir choisi WPForms pour votre site ! Maintenant que vous avez installé l’extension, vous êtes à moins de 5 minutes de la publication de votre premier formulaire. Pour vous faciliter la tâche, nous avons plus de 400 modèles de formulaires pour vous aider à démarrer !"
 
 #: src/Admin/Notifications/EventDriven.php:522
 msgid "Welcome to WPForms!"
@@ -776,6 +1057,11 @@ msgstr "Obtenir WPForms Pro"
 msgid "Connecting..."
 msgstr "Connexion…"
 
+#. translators: %s - WordPress version.
+#: wpforms.php:256
+msgid "The WPForms plugin is disabled because it requires WordPress %s or later."
+msgstr "L’extension WPForms est désactivée car elle nécessite WordPress %s ou supérieur."
+
 #. translators: %d Maximum number of revisions to keep.
 #: templates/builder/revisions/notice-limited.php:20
 msgid "Revisions are enabled, but they’re limited to %d. You can increase this by making a simple change to your WordPress configuration."
@@ -941,6 +1227,10 @@ msgstr "Vous ne pouvez pas modifier ce formulaire, car il se trouve dans la corb
 msgid "It looks like the form you are trying to access is no longer available."
 msgstr "Il semble que le formulaire auquel vous essayez d’accéder ne soit plus disponible."
 
+#: includes/admin/admin.php:597
+msgid "After upgrading, your license key will remain the same.<br>You may need to do a quick refresh to unlock your new addons. In your WordPress admin, go to <strong>WPForms &raquo; Settings</strong>. If you don't see your updated plan, click <em>refresh</em>."
+msgstr "Après la mise à niveau, votre clé de licence restera la même.<br>Vous devrez peut-être effectuer une actualisation rapide pour déverrouiller vos nouvelles extensions. Dans votre administration WordPress, accédez à <strong>WPForms >> Réglages</strong>. Si vous ne voyez pas votre offre mise à jour, cliquez sur <em>actualiser</em>."
+
 #. translators: %s - WPForms.com contact page URL.
 #: includes/admin/admin.php:577
 msgid "Thank you for considering upgrading. If you have any questions, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">let us know</a>."
@@ -1081,6 +1371,10 @@ msgstr "Déverrouillez tous les champs et fonctionnalités, y compris le texte e
 #: includes/admin/class-about.php:550 lite/wpforms-lite.php:620
 msgid "Store and manage form entries in WordPress"
 msgstr "Stocker et gérer les entrées de formulaire dans WordPress"
+
+#: includes/admin/class-about.php:546 lite/wpforms-lite.php:619
+msgid "500+ customizable form templates"
+msgstr "Plus de 300 modèles de formulaires personnalisables"
 
 #: includes/admin/builder/class-builder.php:562
 msgid "This field cannot be duplicated."
@@ -1587,6 +1881,11 @@ msgstr "Confirmez-vous vouloir supprimer cette entrée et toutes ses information
 msgid "Could not install the plugin. Please download and install it manually."
 msgstr "Impossible d’installer l’extension. Veuillez la télécharger et l’installer manuellement."
 
+#: includes/admin/class-about.php:1140 includes/admin/class-about.php:1147
+#: includes/admin/class-about.php:1154
+msgid "Address, Phone, Website / URL, Date / Time, Password, File Upload, Layout, Rich Text, Content, HTML, Pagebreaks, Entry Preview, Section Dividers, Ratings, and Hidden Field"
+msgstr "Adresse, téléphone, site/URL, date/heure, mot de passe, téléversement de fichier, HTML, sauts de page, aperçu des entrées, diviseurs de section, notes, texte enrichi et champ masqué"
+
 #: includes/admin/class-about.php:1024
 msgid "Boost your sales and conversions by up to 15% with real-time social proof notifications. TrustPulse helps you show live user activity and purchases to help convince other users to purchase."
 msgstr "Augmentez vos ventes et conversions jusqu’à 15 % grâce à des notifications de preuve sociale en temps réel. TrustPulse vous aide à afficher en direct l’activité et les achats des utilisateurs et utilisatrices pour aider à convaincre d’autres personnes à effectuer un achat."
@@ -1679,6 +1978,10 @@ msgstr "L’extension WordPress SEO originale et la boîte à outils qui amélio
 msgid "AIOSEO"
 msgstr "AIOSEO"
 
+#: includes/admin/class-about.php:888 includes/admin/class-about.php:895
+msgid "Improve your WordPress email deliverability and make sure that your website emails reach user's inbox with the #1 SMTP plugin for WordPress. Over 3 million websites use it to fix WordPress email issues."
+msgstr "Améliorez la délivrabilité de vos e-mails WordPress et assurez-vous que les e-mails de votre site atteignent la boîte de réception de les utilisateurs et utilisatrices avec l’extension SMTP n°1 pour WordPress. Plus de 2 millions de sites l’utilisent pour résoudre les problèmes d’e-mail WordPress."
+
 #: includes/admin/class-about.php:872 includes/admin/class-about.php:879
 msgid "The leading WordPress analytics plugin that shows you how people find and use your website, so you can make data driven decisions to grow your business. Properly set up Google Analytics without writing code."
 msgstr "L’extension WordPress Analytics qui vous montre comment les gens trouvent et utilisent votre site, de sorte que vous pouvez prendre des décisions axées sur les données pour développer votre entreprise. Configurez correctement Google Analytics sans écrire de code."
@@ -1718,6 +2021,10 @@ msgstr "Nombre positif"
 #: includes/admin/builder/panels/class-payments.php:111
 msgid "It seems you don't have any payment addons activated. Click one of the available addons and start accepting payments today!"
 msgstr "Il semble que vous n’ayez activé aucun module de paiement. Cliquez sur un des modules disponibles et commencez à accepter des paiements dès aujourd’hui !"
+
+#: includes/admin/admin.php:252
+msgid "To edit the License Key, please first click the Remove Key button. Please note that removing this key will remove access to updates, addons, and support."
+msgstr "Pour modifier la clé de licence, veuillez d’abord cliquer sur le bouton de désactivation de la clé. Veuillez noter que la désactivation de cette clé supprimera l’accès aux mises à jour, aux modules et au support."
 
 #: includes/functions.php:1014
 msgid "Bonaire, Saint Eustatius and Saba"
@@ -1933,6 +2240,15 @@ msgstr "Désactiver le stockage des entrées pour ce formulaire empêchera compl
 #: src/Admin/Builder/AntiSpam.php:146
 msgid "Enable hCaptcha"
 msgstr "Activer hCaptcha"
+
+#: includes/admin/class-about.php:1445
+msgid "Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Google Sheets, and more (27 total)"
+msgstr "Abandon de formulaire, formulaires de conversation, envoi par interface publique, enregistrement des comptes, géolocalisation, et plus encore (27 au total)"
+
+#: includes/admin/class-about.php:1452 includes/admin/class-about.php:1459
+#: includes/admin/class-about.php:1466
+msgid "Form Abandonment, Conversational Forms, Lead Forms, Frontend Post Submission, User Registration, Geolocation, Webhooks, Google Sheets, and more (30+ total)"
+msgstr "Abandon de formulaire, formulaires de conversation, envoi par interface publique, enregistrement des comptes, géolocalisation, et plus encore (30 au total)"
 
 #: includes/admin/admin.php:209
 msgid "Could not disconnect this account."
@@ -2519,6 +2835,11 @@ msgstr "est une fonctionnalité Élite"
 #: includes/admin/class-about.php:1444
 msgid "Pro Addons Included"
 msgstr "Modules Pro inclus"
+
+#: includes/admin/class-about.php:1280 includes/admin/class-about.php:1294
+#: includes/admin/class-about.php:1308
+msgid "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Salesforce, Sendinblue, HubSpot, Drip, and MailerLite"
+msgstr "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Salesforce, Sendinblue, HubSpot and Drip"
 
 #: includes/admin/class-about.php:1258 includes/admin/class-about.php:1265
 msgid "Additional Marketing Integrations"
@@ -3988,6 +4309,10 @@ msgstr "Module Captcha personnalisé inclus"
 msgid "No Addons Included"
 msgstr "Aucun module inclus"
 
+#: includes/admin/class-about.php:1418
+msgid "Multi-page Forms, File Upload Forms, Multiple Form Notifications, File Upload and CSV Attachments, Conditional Form Confirmation, Custom CAPTCHA, Offline Forms, Signature Forms, Save and Resume Form"
+msgstr "Formulaires à pages multiples, formulaires de téléversement de fichier, notifications multiples de formulaire, confirmation de formulaire conditionnel, CAPTCHA personnalisé, formulaires hors-ligne, signature de formulaires, sauvegarde et reprise de formulaire"
+
 #: includes/admin/class-about.php:1417
 msgid "All Advanced Features"
 msgstr "Toutes les fonctionnalités avancées"
@@ -4025,6 +4350,10 @@ msgstr "<strong>Bonus :</strong> + 500 intégrations avec Zapier."
 msgid "All Marketing Integrations"
 msgstr "Toutes les intégrations marketing"
 
+#: includes/admin/class-about.php:1259 includes/admin/class-about.php:1266
+msgid "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Sendinblue, HubSpot, Drip, and MailerLite"
+msgstr "Constant Contact, Mailchimp, AWeber, GetResponse, Campaign Monitor, Sendinblue, HubSpot et Drip"
+
 #: includes/admin/class-about.php:1245 includes/admin/class-about.php:1252
 msgid "Constant Contact only"
 msgstr "Constant Contact uniquement"
@@ -4032,6 +4361,10 @@ msgstr "Constant Contact uniquement"
 #: includes/admin/class-about.php:1244 includes/admin/class-about.php:1251
 msgid "Limited Marketing Integration"
 msgstr "Intégration marketing limitée"
+
+#: includes/admin/class-about.php:1206
+msgid "All Form Templates including Bonus 500+ pre-made form templates"
+msgstr "Tous les modèles de formulaire, y compris les + de 300 modèles bonus de formulaires pré-enregistrés"
 
 #: includes/admin/class-about.php:1188 includes/admin/class-about.php:1194
 #: includes/admin/class-about.php:1200
@@ -5172,6 +5505,10 @@ msgstr "Si vous avez des questions ou des problèmes <a href=\"%s\" target=\"_bl
 #: includes/admin/admin.php:201 src/Admin/Education/Core.php:148
 msgid "Thanks for your interest in WPForms Pro!"
 msgstr "Merci de votre intérêt pour WPForms Pro !"
+
+#: includes/admin/admin.php:541
+msgid "<strong>Please Note:</strong> Support for PHP 7.1 and below will be discontinued soon. After this, if no further action is taken, WPForms functionality will be disabled."
+msgstr "<strong>Veuillez noter :</strong> Le support de PHP 5.5 sera interrompue en 2020. Après cela, si aucune autre action n’est prise, les fonctionnalités de WPForms seront désactivées."
 
 #. translators: %1$s - WPForms plugin name; %2$s - WPForms.com URL to a related
 #. doc.
