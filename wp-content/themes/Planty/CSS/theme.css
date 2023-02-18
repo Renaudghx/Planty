@@ -17,7 +17,7 @@ a:hover, a {
 }
 
 /* décalage du logo */
-.site-branding-container {
+.site-header .header-image {
     padding-left: 37px;
 }
 /* mise en forme du menu */
@@ -38,6 +38,20 @@ a:hover, a {
     padding-right: 60px;
     font-weight: 700;
 } 
+
+.main-navigation.toggled .main-nav>ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-navigation.toggled .main-nav>ul #menu-item-67,
+.main-navigation.toggled .main-nav>ul #menu-item-108 {
+    padding-left: 60px;
+}
+
+.main-navigation a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
+    padding-left: 60px;
+}
 
 #menu-item-109 a {
     color: white;
@@ -98,6 +112,23 @@ a:hover, a {
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.2);
+    max-width: 392px;
+}
+
+.elementor-13 .elementor-element.elementor-element-8a7b6ca > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    max-width: 392px;
+}
+
+.col-gouts {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* Nous rencontrer */
+
+body:not(.rtl) .elementor-59 .elementor-element.elementor-element-e569303 {
+    max-width: 190px;
 }
 
 /* Formulaires Nous Contacter et Commander */
@@ -237,4 +268,26 @@ input[type=number] {
 
 #img-commande div figure {
     width: 193px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  }
+
+@media (max-width: 767px) {
+    .elementor-13 .elementor-element.elementor-element-584ccf0 .elementor-heading-title {
+        font-size: 24px;
+    }
+    .elementor-13 .elementor-element.elementor-element-8963af1 .elementor-heading-title,
+    .elementor-13 .elementor-element.elementor-element-d4ddc40 .elementor-heading-title {
+        font-size: 24px;
+    }
+    .col-gouts,
+    .col-gouts2,
+    .elementor-13 .elementor-element.elementor-element-8a7b6ca > .elementor-container > .elementor-column > .elementor-widget-wrap {
+        justify-content: center;
+        margin: 0px;
+    }
 }
