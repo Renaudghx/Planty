@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-16 10:08:21+0000\n"
+"PO-Revision-Date: 2023-02-17 16:48:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -173,13 +173,25 @@ msgctxt "System Info"
 msgid "We recommend using PHP version %s or higher."
 msgstr "Nous vous recommandons d’utiliser la version %s ou supérieure de PHP."
 
+#: modules/lazyload/module.php:26
+msgid "Lazy loading images that are not in the viewport improves initial page load performance and user experience. By activating this experiment all background images except the first one on your page will be lazy loaded to improve your LCP score"
+msgstr "Le chargement différé d’images qui ne se trouvent pas dans la fenêtre d’affichage améliore les performances de chargement initial de la page et l’expérience utilisateur. En activant cette expérience, toutes les images d’arrière-plan, à l’exception de la première sur votre page, seront chargées en différé pour améliorer votre score LCP."
+
 #: modules/lazyload/module.php:24
 msgid "Lazy Load Background Images"
 msgstr "Chargement différé des images d’arrière-plan"
 
+#: modules/kit-elements-defaults/module.php:26
+msgid "Maintain consistency across your site by saving the changes to a widget as the default setting for future use. These settings will automatically apply to the widget every time you place it. Note: This feature doesn't affect existing widgets."
+msgstr "Maintenez la cohérence sur l’ensemble du site en enregistrant les modifications apportées à un widget en tant que réglage par défaut pour une utilisation future. Ces réglages s’appliqueront automatiquement au widget chaque fois que vous le placerez. Remarque : cette fonctionnalité n’affecte pas les widgets déjà en place."
+
 #: modules/kit-elements-defaults/module.php:25
 msgid "Save as Default"
 msgstr "Définir comme valeur par défaut"
+
+#: includes/elements/container.php:1648
+msgid "Note: Avoid applying transform properties on sticky containers. Doing so might cause unexpected results."
+msgstr "Remarque : éviter d’appliquer les propriétés de transformation sur les conteneurs épinglés. Cela pourrait entraîner des résultats inattendus."
 
 #: includes/controls/groups/typography.php:145
 msgctxt "Typography Control"
@@ -256,6 +268,10 @@ msgstr "Retirer tous les réglages de contenu et de site fournis avec « %1$s 
 #: app/modules/import-export/module.php:183
 msgid "imported kit"
 msgstr "kit importé"
+
+#: app/modules/import-export/module.php:173
+msgid "Remove all the content and site settings that came with \"%1$s\" on %2$s %3$s and revert to the site setting that came with \"%4$s\" on %5$s."
+msgstr "Retirer tous les réglages de contenu et de site venants avec « %1$s » sur %2$s %3$s et revenez au réglage de site fourni avec « %4$s » sur %5$s."
 
 #. Translators: %s is the current item index.
 #: modules/nested-elements/base/widget-nested-base.php:45
@@ -357,6 +373,16 @@ msgstr "Définit l’espacement par défaut dans le conteneur (par défaut : 10
 msgid "Container Padding"
 msgstr "Marges internes du conteneur"
 
+#: core/experiments/manager.php:340
+msgid ""
+"Create advanced layouts and responsive designs with the new %1$sFlexbox Container element%2$s.\n"
+"\t\t\t\tThis experiment replaces the current section/column structure, but you'll still keep your existing\n"
+"\t\t\t\tSections, Inner Sections and Columns and be able to edit them. Ready to give it a try? Check out the %3$sFlexbox playground%4$s."
+msgstr ""
+"Créez des mises en page avancées et des designs responsives avec le nouvel élément %1$sConteneur Flexbox%2$s.\n"
+"\t\t\t\tCette expérience remplace la structure actuelle en sections/colonnes, mais vous conserverez votre structure existante\n"
+"\t\t\t\tSections, sections intérieures et colonnes que l’on peut modifier. Prêt à essayer ? Découvrez le %3$sfonctionnement de la Flexbox%4$s."
+
 #: core/experiments/manager.php:339 modules/nested-elements/module.php:17
 msgid "Feature"
 msgstr "Fonctionnalité"
@@ -417,6 +443,11 @@ msgstr "vous n’êtes pas autorisé à effectuer cette action."
 msgid "Get Elementor Pro"
 msgstr "Obtenir Elementor Pro"
 
+#: modules/container-converter/module.php:88
+#: modules/container-converter/module.php:121
+msgid "Copies all of the selected sections and columns and pastes them in a container beneath the original."
+msgstr "Copie toutes les sections et colonnes choisies et les colle dans un conteneur sous l’original."
+
 #: modules/container-converter/module.php:86
 #: modules/container-converter/module.php:119
 msgid "Convert"
@@ -434,6 +465,10 @@ msgstr "Lire la vidéo sur"
 #: includes/widgets/image-carousel.php:575
 msgid "Pagination"
 msgstr "Pagination"
+
+#: includes/elements/container.php:437
+msgid "To achieve full height Container use %s."
+msgstr "Pour atteindre la pleine hauteur du conteneur, utilisez %s."
 
 #: includes/elements/container.php:67 includes/elements/container.php:305
 #: modules/library/documents/container.php:52 assets/js/editor.js:9793
@@ -525,6 +560,11 @@ msgctxt "Flex Item Control"
 msgid "Center"
 msgstr "Centrer"
 
+#: includes/controls/groups/flex-item.php:60
+msgctxt "Flex Item Control"
+msgid "Align Self"
+msgstr "Align Self"
+
 #: includes/controls/groups/flex-item.php:30
 msgctxt "Flex Item Control"
 msgid "Custom Width"
@@ -541,6 +581,11 @@ msgstr "Personnalisé"
 msgctxt "Flex Item Control"
 msgid "Default"
 msgstr "Par défaut"
+
+#: includes/controls/groups/flex-item.php:20
+msgctxt "Flex Item Control"
+msgid "Flex Basis"
+msgstr "Flex Basis"
 
 #: includes/controls/groups/flex-container.php:213
 msgctxt "Flex Container Control"
@@ -596,12 +641,22 @@ msgctxt "Flex Container Control"
 msgid "Stretch"
 msgstr "Étirer"
 
+#: includes/controls/groups/flex-container.php:216
+msgctxt "Flex Container Control"
+msgid "Flex End"
+msgstr "Flex End"
+
 #: includes/controls/groups/flex-container.php:101
 #: includes/controls/groups/flex-container.php:137
 #: includes/controls/groups/flex-container.php:214
 msgctxt "Flex Container Control"
 msgid "Center"
 msgstr "Centrer"
+
+#: includes/controls/groups/flex-container.php:215
+msgctxt "Flex Container Control"
+msgid "Flex Start"
+msgstr "Flex Start"
 
 #: includes/controls/groups/flex-container.php:128
 msgctxt "Flex Container Control"
@@ -674,6 +729,12 @@ msgstr "Connecter et activer"
 msgid "Elements Usage"
 msgstr "Utilisation des éléments"
 
+#. translators: 1: Integration settings link open tag, 2: Create API key link
+#. open tag, 3: Link close tag.
+#: includes/widgets/google-maps.php:117
+msgid "Set your Google Maps API Key in Elementor's %1$sIntegrations Settings%3$s page. Create your key %2$shere.%3$s"
+msgstr "Définissez votre clé d’API Google Maps dans la page %1$sRéglages d’intégration%3$s d’Elementor. Créez votre clé %2$sici.%3$s"
+
 #: includes/base/element-base.php:1250
 msgid "Y Anchor Point"
 msgstr "Point d’ancrage Y"
@@ -741,6 +802,10 @@ msgstr "Rotation 3D"
 #: includes/base/element-base.php:762
 msgid "Transform"
 msgstr "Transformer"
+
+#: modules/promotions/admin-menu-items/custom-code-promotion-item.php:23
+msgid "Custom Code is a tool gives you one place where you can insert scripts, rather than dealing with dozens of different plugins and deal with code."
+msgstr "Code personnalisé est un outil qui propose un endroit où insérer des scripts, plutôt que de traiter avec des extensions différentes et de gérer du code."
 
 #: modules/promotions/admin-menu-items/custom-code-promotion-item.php:19
 msgid "Add Your Custom Code"
@@ -921,6 +986,10 @@ msgstr "Écran"
 msgid "Multiply"
 msgstr "Multiplier"
 
+#: includes/editor-templates/responsive-bar.php:27
+msgid "Widescreen <br> Settings added for the Widescreen device will apply to screen sizes %dpx and up"
+msgstr "Écran large <br> Les réglages ajoutés pour l’appareil à écran large s’appliqueront aux tailles d’écran de %dpx et plus"
+
 #. translators: %1$s Link open tag, %2$s: Link close tag.
 #: includes/editor-templates/panel.php:185
 msgid "You can enable it from the %1$sElementor settings page%2$s."
@@ -931,10 +1000,24 @@ msgstr "Vous pouvez l’activer depuis la %1$spage des réglages d’Elementor%2
 msgid "Hide On %s"
 msgstr "Masquer sur %s"
 
+#. translators: %1$s Span open tag, %2$s: Span close tag.
+#: includes/admin-templates/new-template.php:52
+msgid "Templates Help You %1$sWork Efficiently%2$s"
+msgstr "Les modèles vous aident à %1$stravailler efficacement%2$s"
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: core/kits/documents/tabs/tab-base.php:79
+msgid "In order for Theme Style to affect all relevant Elementor elements, please disable Default Colors and Fonts from the %1$sSettings Page%2$s."
+msgstr "Pour que le style de thème affecte tous les éléments pertinents d’Elementor, veuillez désactiver les couleurs et les polices par défaut à partir de la %1$spage des réglages%2$s."
+
 #: core/kits/documents/tabs/settings-page-transitions.php:19
 #: includes/managers/controls.php:1031
 msgid "Page Transitions"
 msgstr "Transitions de page"
+
+#: core/kits/documents/tabs/settings-layout.php:346
+msgid "Widescreen breakpoint settings will apply from the selected value and up."
+msgstr "Les réglages de point de rupture pour écran large s’appliqueront à partir de la valeur choisie."
 
 #: core/experiments/manager.php:320
 msgid "Get pixel-perfect design for every screen size. You can now add up to 6 customizable breakpoints beyond the default desktop setting: mobile, mobile extra, tablet, tablet extra, laptop, and widescreen."
@@ -1092,7 +1175,7 @@ msgstr "Rond"
 
 #: includes/widgets/common.php:1098
 msgid "Repeat-x"
-msgstr "Répéter sur X"
+msgstr "Répéter sur Y"
 
 #: includes/widgets/common.php:1099
 msgid "Repeat-y"
@@ -1528,6 +1611,11 @@ msgstr "Actif par défaut"
 #: core/experiments/manager.php:547
 msgid "Status: %s"
 msgstr "État : %s"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: core/experiments/manager.php:516
+msgid "To use an experiment or feature on your site, simply click on the dropdown next to it and switch to Active. You can always deactivate them at any time. %1$sLearn More.%2$s"
+msgstr "Pour utiliser une expérience ou une fonctionnalité sur votre site, cliquez simplement sur le menu déroulant à côté et passez à Actif. Vous pouvez toujours les désactiver à tout moment. %1$sEn savoir plus.%2$s"
 
 #: core/common/modules/finder/categories/settings.php:60
 msgid "Experiments"
@@ -2444,7 +2532,7 @@ msgstr "Certains fichiers de votre thème sont manquants."
 
 #: core/files/file-types/svg.php:100 core/files/uploads-manager.php:539
 msgid "This file is not allowed for security reasons."
-msgstr "Ce fichier n’est pas autorisé pour des raisons de sécurité."
+msgstr "Les fichiers %1$s ne sont pas autorisés pour des raisons de sécurité"
 
 #: includes/admin-templates/beta-tester.php:37 assets/js/beta-tester.js:65
 msgid "Sign Up"
@@ -3348,7 +3436,7 @@ msgstr "Créer un nouvel article"
 
 #: includes/fonts.php:77
 msgid "Google (Early Access)"
-msgstr "Google (accès anticipé)"
+msgstr "Google Early Access"
 
 #: modules/history/revisions-manager.php:157
 msgid "Current Version"

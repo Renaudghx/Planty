@@ -273,10 +273,20 @@ input[type=number] {
 /* Media Queries */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+    /* Page Commander - adaptation tablette form (0,+,-,ok) */
+    #form-cmd .champ {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #form-cmd div .ok{
+        margin-left: 10px;
+    }
   }
 
+
 @media (max-width: 767px) {
+    /* Rétrécissement des titres sur mobile */
+
     .elementor-13 .elementor-element.elementor-element-584ccf0 .elementor-heading-title {
         font-size: 24px;
     }
@@ -284,10 +294,18 @@ input[type=number] {
     .elementor-13 .elementor-element.elementor-element-d4ddc40 .elementor-heading-title {
         font-size: 24px;
     }
+    /* Ajustement - Les Goûts - Page d'accueil */
     .col-gouts,
     .col-gouts2,
     .elementor-13 .elementor-element.elementor-element-8a7b6ca > .elementor-container > .elementor-column > .elementor-widget-wrap {
         justify-content: center;
         margin: 0px;
+    }
+    /* Changement de la justifucation du form (0,+,-,ok) */
+    #form-cmd .champ {
+        justify-content: center;
+    }
+    #form-cmd div .ok{
+        margin-left: 10px;
     }
 }
