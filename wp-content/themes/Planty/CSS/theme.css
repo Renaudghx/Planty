@@ -301,7 +301,7 @@ input[type=number] {
         justify-content: center;
         margin: 0px;
     }
-    /* Changement de la justifucation du form (0,+,-,ok) */
+    /* Changement de la justification du form (0,+,-,ok) */
     #form-cmd .champ {
         justify-content: center;
     }
